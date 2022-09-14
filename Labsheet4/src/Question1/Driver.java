@@ -17,7 +17,7 @@ public class Driver {
 		t1.insert(105, "bimali");
 		t1.insert(133, "sampath");
 		t1.insert(133, "sampath");
-		
+		t1.insert(133, "sampath");
 		System.out.println("In Order");
 		t1.callinOrder();
 		System.out.println("Pre Order");
