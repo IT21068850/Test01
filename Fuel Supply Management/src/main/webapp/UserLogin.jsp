@@ -8,16 +8,16 @@
 </head>
 <body>
 
-<form action="">
+<form action="/login" method="post">
 <h3>Login</h3>
 	<div>
 		<label>NIC</label>
-		<input type="text" required>
+		<input type="text" name="nic" required/>
 	</div>
 	
 	<div>
 		<label>Password</label>
-		<input type="password" required>
+		<input type="password" name="pswd" required/>
 	</div>
 	
 	
